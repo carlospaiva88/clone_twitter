@@ -13,7 +13,7 @@ SECRET_KEY = "django-insecure-alwj0o77j*duizcc0(yk+izjtlj!d1f0##(+0+_(mhoc@#_33v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -38,7 +38,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "social_media.urls"
+ROOT_URLCONF = "clone_twitter.urls"
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "social_media.wsgi.application"
+WSGI_APPLICATION = "clone_twitter.wsgi.application"
 
 
 # Database
