@@ -38,7 +38,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "clone_twitter.urls"
+ROOT_URLCONF = "social_media.urls"
 
 TEMPLATES = [
     {
@@ -56,7 +56,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = "clone_twitter.wsgi.application"
+WSGI_APPLICATION = "social_media.wsgi.application"
 
 
 # Database
